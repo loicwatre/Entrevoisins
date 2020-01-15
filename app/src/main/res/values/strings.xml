@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Entrevoisins</string>
+    <string name="tab_neighbour_title">My neighbours</string>
+    <string name="tab_favorites_title">Favorites</string>
+
+    <string name="SHARED_PREF_FAVORITES">SHARED_PREF_FAVORITES</string>
+    <string name="shared_pref_key">SHARED_PREF_KEY</string>
+
+</resources>
