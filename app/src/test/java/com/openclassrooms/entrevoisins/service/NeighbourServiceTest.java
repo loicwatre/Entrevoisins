@@ -12,6 +12,7 @@ import org.junit.runners.JUnit4;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
@@ -60,6 +61,6 @@ public class NeighbourServiceTest {
 
         List<Neighbour> favorites = service.getFavoriteNeighbours(ids);
 
-        assertTrue(favorites.get(0).getName().equals("Brian"));
+        assertEquals("Caroline", favorites.get(0).getName());
     }
 }

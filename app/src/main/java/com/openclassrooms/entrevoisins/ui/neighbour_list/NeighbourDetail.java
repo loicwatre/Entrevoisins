@@ -94,7 +94,7 @@ public class NeighbourDetail extends AppCompatActivity {
         nameView.setText(mNeighbour.getName());
         addressView.setText("Here the personal address");
         phoneView.setText("00.00.00.00.00.00");
-        Glide.with(this).load("https://image.freepik.com/free-vector/background-with-circles-abstract-design_23-2148275367.jpg").into(avatarView);
+        Glide.with(this).load("https://mixer.com/_latest/assets/images/main/avatars/default.png").into(avatarView);
         networkView.setText("Here social network infos");
         descriptionView.setText("Personal description");
     }
